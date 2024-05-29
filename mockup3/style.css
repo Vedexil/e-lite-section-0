@@ -85,3 +85,15 @@ body{
     border: 1px;
 
 }
+
+.container{
+    font-family: "Inter", sans-serif;
+    color:#24635E;
+    width: 584px;
+    height: 178px;
+    font-size: 75px;
+    font-weight: 700px;
+    position: relative;
+    top: 195px;
+    left: 168px;
+}

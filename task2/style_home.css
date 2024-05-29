@@ -10,10 +10,11 @@ body{
     width: 350px;
     position: relative;
     bottom: 100px;
+    transform: transition .2s;
 }
 
 .container{
-    background-color: #323036;
+    background-color: #000000;
     height: 650px;
     width: 1528px;
     position: relative;
@@ -29,6 +30,11 @@ body{
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     font-weight: 700;
+    transition: transform .2s;
+}
+
+.products:hover{
+    transform: scale(1.01);
 }
 
 .vision{
@@ -38,6 +44,11 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #ffffff;
+    transition: transform .2s
+}
+
+.vision:hover{
+    transform: scale(1.01);
 }
 
 .contri{
@@ -47,6 +58,11 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #ffffff;
+    transition: transform .2s;
+}
+
+.contri:hover{
+    transform: scale(1.01);
 }
 
 .support{
@@ -56,4 +72,234 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #ffffff;
+    transition: transform .2s;
+}
+
+.support:hover{
+    transform: scale(1.01);
+}
+
+.line{
+    background-color: #ffffff;
+    position: relative;
+    bottom: 700px;
+    right: 100px;
+    width: 1610px;
+}
+
+.intro{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    bottom: 600px;
+    left: 80px;
+    color: #ffffff;
+    transition: transform .2s;
+}
+
+.intro:hover{
+    transform: scale(1.01);
+}
+
+.image1{
+    position: relative;
+    bottom: 790px;
+    left: 800px;
+    width: 700px;
+    height: 400px;
+    transition: transform .2s;
+    
+}
+
+.image1:hover{
+    transform: scale(1.01);
+}
+
+.more{
+    background-color: #edece8;
+    position: relative;
+    bottom: 900px;
+    right: 620px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: #ffffff;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: transform .2s;
+
+}
+
+.more:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.overview{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: #ffffff;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    background-color: #7bc0f2;
+    position: relative;
+    bottom: 900px;
+    right: 590px;
+    transition: transform .2s;
+}
+
+.overview:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.about{
+    color: #18224b;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    position: relative;
+    bottom: 750px;
+    left: 540px;
+}
+
+.ten{
+    color: #1b3dab;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.customer{
+    color: #2c2f36;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+
+.stat1{
+    position: relative;
+    bottom: 680px;
+    left: 80px;
+}
+
+.percent{
+    color: #1b3dab;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.cheap{
+    color: #2c2f36;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.stat2{
+    position: relative;
+    left: 10px;
+    bottom: 1040px;
+    text-align: center;
+}
+
+.store{
+    color: #1b3dab;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.india{
+    color: #2c2f36;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 50px;
+}
+
+.stat3{
+    text-align: center;
+    position: relative;
+    left: 500px;
+    bottom: 1399px;
+}
+
+.stats{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.line2{
+    background-color: #7bc0f2;
+    height: 2px;
+    width: 1509px;
+    position: relative;
+    bottom: 1450px;
+}
+
+.touch{
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    color: #18224b;
+    position: relative;
+    left: 340px;
+    bottom: 1450px;
+}
+
+.contact{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    right: 6px;
+    bottom: 18px;
+    border-radius: 20px;
+}
+
+.contactbutton{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 120px;
+    bottom: 1430px;
+    border-radius: 20px;
+    border: #ffffff;
+    background-color: #ffffff;
+    transition: transform .2s;
+    cursor: pointer;
+    
+}
+
+.contactbutton:hover{
+    transform: scale(1.05);
+}
+
+.us{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #18224b;
+    font-weight: 900;
+    position: relative;
+    bottom: 30px;
+}
+
+.getback{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c2f36;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
 }

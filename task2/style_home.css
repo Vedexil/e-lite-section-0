@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    bottom: 100px;
+}
+
+.container{
+    background-color: #323036;
+    height: 650px;
+    width: 1528px;
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+
+}
+
+.products{
+    position: relative;
+    bottom: 612px;
+    left: 880px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.vision{
+    position: relative;
+    bottom: 654px;
+    left: 1030px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contri{
+    position: relative;
+    bottom: 696px;
+    left: 1150px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.support{
+    position: relative;
+    bottom: 738px;
+    left: 1300px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}

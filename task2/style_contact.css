@@ -197,8 +197,8 @@ body{
 
 .submit{
     position: relative;
-    bottom: 950px;
-    left: 750px;
+    bottom: 1070px;
+    left: 950px;
     width: 150px;
     height: 50px;
     background-color: #18224b;
@@ -209,13 +209,19 @@ body{
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
+    transition: transform .2s;
 
+}
+
+.submit:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .reset{
     position: relative;
-    bottom: 950px;
-    left: 350px;
+    bottom: 1070px;
+    left: 980px;
     width: 150px;
     height: 50px;
     background-color: #18224b;
@@ -225,6 +231,13 @@ body{
     font-weight: 500;
     border-radius: 10px;
     border: #ffffff;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.reset:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .bottom{
@@ -276,6 +289,7 @@ body{
     position: relative;
     bottom: 1318px;
     left: 130px;
+    transition: transform .2s;
 
 }
 
@@ -285,6 +299,7 @@ body{
     position: relative;
     bottom: 1300px;
     left: 140px;
+    transition: transform .2s;
 }
 
 .contri2{
@@ -293,6 +308,7 @@ body{
     position: relative;
     bottom: 1280px;
     left: 122px;
+    transition: transform .2s;
 }
 
 .support2{
@@ -301,6 +317,7 @@ body{
     position: relative;
     bottom: 1260px;
     left: 130px;
+    transition: transform .2s;
 }
 
 .copy{
@@ -311,4 +328,24 @@ body{
     position: relative;
     bottom: 1300px;
     left: 385px;
+}
+
+.product2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.vision2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.contri2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.support2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
 }

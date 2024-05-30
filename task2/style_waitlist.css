@@ -123,3 +123,209 @@ body{
 
 
 }
+
+.second{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    bottom: 1220px;
+    left: 200px;
+}
+
+.mail{
+    position: relative;
+    bottom: 1230px;
+    left: 200px;
+    height: 34px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 5px;
+
+   
+}
+
+.wish{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    bottom: 1180px;
+    left: 200px;
+}
+
+.yes{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 1180px;
+    left: 300px;
+    
+}
+
+.yesbutton{
+    position: relative;
+    bottom: 1180px;
+    left: 300px;
+}
+
+.no{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 1180px;
+    left: 600px;
+    
+}
+
+.nobutton{
+    position: relative;
+    bottom: 1180px;
+    left: 600px;
+}
+
+.bottom{
+    background-color: #000000;
+    width: 1528px;
+    height: 500px;
+    position: relative;
+    right: 8px;
+    bottom: 1050px;
+}
+
+.submit{
+    position: relative;
+    bottom: 1120px;
+    left: 250px;
+    width: 150px;
+    height: 50px;
+    background-color: #18224b;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    border: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform .2s;
+
+}
+
+.submit:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.logo_{
+    position: relative;
+    right: 30px;
+    bottom: 102px;
+    width: 350px;
+    height: 350px;
+}
+
+.bg{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: 450px;
+    top: 44px;
+    transition: transform .2s;
+}
+
+.bg:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.what{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    position: relative;
+    bottom: 315px;
+    left: 450px;
+}
+
+.this{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    position: relative;
+    bottom: 271px;
+    left: 360px;
+
+}
+
+.product2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1368px;
+    left: 130px;
+    transition: transform .2s;
+
+}
+
+.vision2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1350px;
+    left: 140px;
+    transition: transform .2s;
+}
+
+.contri2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1330px;
+    left: 122px;
+    transition: transform .2s;
+}
+
+.support2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1310px;
+    left: 130px;
+    transition: transform .2s;
+}
+
+.copy{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    bottom: 1400px;
+    left: 385px;
+}
+
+
+.product2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.vision2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.contri2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.support2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}

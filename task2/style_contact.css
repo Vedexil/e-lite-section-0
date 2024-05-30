@@ -121,8 +121,194 @@ body{
     font-weight: 500;
     font-size: 40px;
     position: relative;
-    bottom: 142 0px;
+    bottom: 1420px;
     left: 70px;
     color: #ffffff;
 
+
+}
+
+.first{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    bottom: 1200px;
+    left: 200px;
+
+}
+
+.name{
+    position: relative;
+    bottom: 1203px;
+    left: 200px;
+    height: 34px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+
+.second{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    bottom: 1120px;
+    left: 200px;
+}
+
+.mail{
+    position: relative;
+    bottom: 1124px;
+    left: 200px;
+    height: 34px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 5px;
+
+   
+}
+
+.third{
+    font-family: 'Inter', sans-serif;
+    color: #18224b;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    bottom: 1100px;
+    left: 200px;
+    
+}
+
+.msg{
+    position: relative;
+    bottom: 1020px;
+    left: 200px;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    text-align:start;
+    border-radius: 5px;
+
+}
+
+.submit{
+    position: relative;
+    bottom: 950px;
+    left: 750px;
+    width: 150px;
+    height: 50px;
+    background-color: #18224b;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    border: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.reset{
+    position: relative;
+    bottom: 950px;
+    left: 350px;
+    width: 150px;
+    height: 50px;
+    background-color: #18224b;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: #ffffff;
+}
+
+.bottom{
+    background-color: #000000;
+    width: 1528px;
+    height: 500px;
+    position: relative;
+    right: 8px;
+    bottom: 1000px;
+}
+
+.logo_{
+    position: relative;
+    right: 30px;
+    bottom: 102px;
+    width: 350px;
+    height: 350px;
+}
+
+.bg{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: 450px;
+    top: 44px;
+}
+
+.what{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    position: relative;
+    bottom: 315px;
+    left: 450px;
+}
+
+.this{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    position: relative;
+    bottom: 271px;
+    left: 360px;
+
+}
+
+.product2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1318px;
+    left: 130px;
+
+}
+
+.vision2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1300px;
+    left: 140px;
+}
+
+.contri2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1280px;
+    left: 122px;
+}
+
+.support2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 1260px;
+    left: 130px;
+}
+
+.copy{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    bottom: 1300px;
+    left: 385px;
 }

@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+html{
+    min-width: 100%;
+    
+
+}
+
+.page{
+    height: 1000px;
+}
+
 body{
     background-color: #ffffff;
-    overflow-x: hidden;
+       
+    
 }
 
 .logo{
@@ -35,6 +46,7 @@ body{
 
 .products:hover{
     transform: scale(1.01);
+    opacity: 0.9;
 }
 
 .vision{
@@ -49,6 +61,7 @@ body{
 
 .vision:hover{
     transform: scale(1.01);
+    opacity: 0.9;
 }
 
 .contri{
@@ -63,6 +76,7 @@ body{
 
 .contri:hover{
     transform: scale(1.01);
+    opacity: 0.9;
 }
 
 .support{
@@ -77,6 +91,7 @@ body{
 
 .support:hover{
     transform: scale(1.01);
+    opacity: 0.9;
 }
 
 .line{
@@ -100,6 +115,7 @@ body{
 
 .intro:hover{
     transform: scale(1.01);
+    opacity: 0.9;
 }
 
 .image1{
@@ -114,6 +130,7 @@ body{
 
 .image1:hover{
     transform: scale(1.01);
+    opacity: 0.9;
 }
 
 .more{
@@ -249,57 +266,214 @@ body{
     bottom: 1450px;
 }
 
-.touch{
+.contact{
     font-family: 'Inter', sans-serif;
     font-size: 100px;
     color: #18224b;
     position: relative;
-    left: 340px;
+    left: 485px;
     bottom: 1450px;
-}
-
-.contact{
-    width: 600px;
-    height: 400px;
-    position: relative;
-    right: 6px;
-    bottom: 18px;
-    border-radius: 20px;
 }
 
 .contactbutton{
     width: 600px;
-    height: 500px;
+    height: 200px;
     position: relative;
-    left: 120px;
+    left: 100px;
     bottom: 1430px;
     border-radius: 20px;
     border: #ffffff;
-    background-color: #ffffff;
+    background-color: #18224b;
     transition: transform .2s;
     cursor: pointer;
+    text-align: center;
     
 }
 
 .contactbutton:hover{
     transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .us{
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
-    color: #18224b;
+    font-size: 40px;
+    color: #edece8;
     font-weight: 900;
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
+    
 }
 
 .getback{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color: #2c2f36;
+    color: #ffffff;
     position: relative;
-    bottom: 30px;
-    left: 20px;
+    bottom: 20px;
+    
+}
+
+.waitlistbutton{
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    border: #ffffff;
+    background-color: #18224b;
+    cursor: pointer;
+    text-align: center;
+    transition: transform .2s;
+    position: relative;
+    bottom: 1430px;
+    left: 200px;
+    
+}
+
+.waitlistbutton:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.waitlist{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: #edece8;
+    font-weight: 900;
+    position: relative;
+    bottom: 10px;
+}
+
+.fill{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.bottom{
+    background-color: #000000;
+    width: 1528px;
+    height: 500px;
+    position: relative;
+    right: 8px;
+    bottom: 1400px;
+}
+
+.what{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff; 
+    position: relative;
+    left: 450px;
+    bottom: 315px;
+}
+
+.logo2{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    right: 30px;
+    bottom: 100px;
+
+
+}
+
+.background2{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    top: 45px;
+    left: 450px;
+    transition: transform .2s;
+
+}
+
+.background2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.this{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    bottom: 270px;
+    left: 360px;
+   
+}
+
+.product2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    bottom: 1720px;
+    left: 130px;
+    transition: transform .2s;
+    
+}
+
+.product2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.vision2{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    bottom: 1700px;
+    left: 141px;
+    transition: transform .2s;
+}
+
+.vision2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;  
+}
+
+.contri2{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    transition: transform .2s;
+    position: relative;
+    bottom: 1680px;
+    left: 123px;
+}
+
+.contri2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.support2{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    transition: transform .2s;
+    position: relative;
+    bottom: 1658px;
+    left: 130px;
+}
+
+.support2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.copy{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    bottom: 1700px;
+    left: 385px;
 }

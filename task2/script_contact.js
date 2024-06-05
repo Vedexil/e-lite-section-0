@@ -1,55 +1,32 @@
 function validate() {
-    var name = document.getElementById("namebox");
-    var email = document.getElementById("emailbox");
-    var message = document.getElementById("messagebox"); 
+    var a = document.getElementById("name").value;
+    var b = document.getElementById("email").value;
+    var c = document.getElementById("message").value;
 
-    if (name.value == "" || email.value == "" || message.value == "")
-        {
-            alert("Please fill out all the fields.");
-            return false;
-        }
-        else {
-            showAlert(name, email, message);
-        }
+    var isValid = true
+
+    if (a == "" || b == "" || c == "") {
+        alert("Filling all fields is mandatory")
+        isValid = false;
+    }
+
+    else if (!/^[a-zA-Z\s]+$/.test(a)) {
+        alert("Name should contain only alphabets and spaces.")
+        isValid = false;
+    }
+
+    else if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(b)) {
+        alert("Invalid email address. Please enter a valid email address.")
+        isValid = false;
+    }
+
+    if(isValid) {
+        var userInputString = "Name: " + a + "\nGrade: " + b + "\nEmail: " + c + "\nDate of Birth: " + d + "\nAbout Yourself: " + e + "\nAchievements: " + f;
+        alert(userInputString);
+        return true;
+        
+    }
+    else {
+        return false;
+    }
 }
-
-function allLetter(input) {
-    var letters = /^[A-Za-z_ ]*$/;
-
-    if (input.value.match(letters))
-        {
-            return true
-        }
-        else if (input.value == "") {
-            return true
-        }
-        else
-        {
-            alert("Please input alphabet characters only in the name field. ");
-            return false;
-        }
-}
-
-function allMail(email) {
-    var character = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-        if (email.value.match(character))
-        {
-            return true;
-        }
-        else if (input.value == "") {
-            return true
-        }
-
-        else 
-        {
-            alert("Please enter a valid email address.")
-            return false;
-        }
-
-
-}
-
-function showAlert(name, email, message) {
-    alert("You have submitted the following information:\nName: " + namename + "\nEmail: " + email + "\nMessage: " + message)
-}
-

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>TechWizards</title>
+    <body>
+        <script src="script.js"></script>
+        <div class="container"></div>
+        <h1 class="tech">TechWizards</h1>
+        <button class="about">About Us</button>
+        <button class="team">Our Team</button>
+        <button class="contact">Contact</button>
+        <h3 class="aspire">We are an aspiring tech club looking to hire individuals<br>that can help grow our club. Fill out the form given here<br>to register. We will let you know if you have been selected<br>via email.</h3>
+        <h2 class="register">Register</h2>
+        <form>
+            <input type="text" name="name" id="name" placeholder="Your Name" class="name">
+            
+            <label for="grade" class="grade">Grade
+                <select name="grade" id="grade" class="selectgrade">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </label>
+            <input type="text" name="email" id="email" placeholder="Email Address" class="email">
+            <input type="text" name="dob" id="dob" placeholder="Date of Birth" class="dob">
+            <textarea name="yourself" id="yourself" rows="10" cols="50" class="yourself" placeholder="Tell us about yourself"></textarea>
+            <textarea name="acheive" id="achieve" rows="10" cols="50" class="achieve" placeholder="Your Achievements. If any, please describe them."></textarea>
+
+            <label for="notif" class="would">Would you like to receive notifications?</label>
+
+            <label for="yes" class="yes">Yes</label>
+            <input type="radio" class="yesbutton" name="like">
+
+            <label for="no" class="no">No</label>
+            <input type="radio" class="nobutton" name="like">
+            <input type="submit" class="submit" onclick="validate(); isInputLetter(evt)">
+        </form>
+
+
+
+
+
+
+
+
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

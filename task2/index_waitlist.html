@@ -5,6 +5,7 @@
     </head>
     <title>Waitlist Page - Cyrotech</title>
     <body>
+        <script src="script_waitlist.js"></script>
             <div class="container"></div>
             <img src="logo.png" alt="logo" class="logo">
             <h3 class="products">Products</h3>
@@ -18,7 +19,7 @@
 
             <form>
                 <label for="email" class="second">Email ID: </label>
-                <input type="email" name="" id="" required class="mail" placeholder="Enter your Email ID">
+                <input type="email" name="" id="email" required class="mail" placeholder="Enter your Email ID">
             </form>
             <p class="wish">Do you wish to receive updates via mail?</p>
             <form>
@@ -26,8 +27,9 @@
                 <label for="yes" class="yes">Yes</label>
                 <input type="radio" name="updates" id="" class="nobutton">
                 <label for="no" class="no">No</label>
+                <input type="submit" class="submit" onclick="validate()">
             </form>
-            <input type="submit" class="submit">
+            
 
             <div class="bottom">
                 <img src="logo.png" alt="cyrotech logo" class="logo_">

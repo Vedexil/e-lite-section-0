@@ -156,14 +156,14 @@ body{
     font-size: 40px;
     font-weight: 700;
     position: relative;
-    bottom: 1120px;
-    left: 200px;
+    bottom: 1090px;
+    right: 447px;
 }
 
 .mail{
     position: relative;
-    bottom: 1124px;
-    left: 200px;
+    bottom: 1100px;
+    right: 447px;
     height: 34px;
     font-size: 20px;
     width: 500px;
@@ -195,50 +195,6 @@ body{
 
 }
 
-.submit{
-    position: relative;
-    bottom: 1070px;
-    left: 950px;
-    width: 150px;
-    height: 50px;
-    background-color: #18224b;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    border: #ffffff;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 500;
-    transition: transform .2s;
-
-}
-
-.submit:hover{
-    transform: scale(1.05);
-    opacity: 0.9;
-}
-
-.reset{
-    position: relative;
-    bottom: 1070px;
-    left: 980px;
-    width: 150px;
-    height: 50px;
-    background-color: #18224b;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 10px;
-    border: #ffffff;
-    cursor: pointer;
-    transition: transform .2s;
-}
-
-.reset:hover{
-    transform: scale(1.05);
-    opacity: 0.9;
-}
 
 .bottom{
     background-color: #000000;
@@ -346,6 +302,47 @@ body{
 }
 
 .support2:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.submit{
+    background-color: #18224b;
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #ffffff;
+    position: relative;
+    bottom: 950px;
+    left: 270px;
+    transition: transform .2s;
+
+}
+
+.submit:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.reset{
+    background-color: #18224b;
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 950px;
+    left: 300px;
+    transition: tranform .2s;
+}
+
+.reset:hover{
     transform: scale(1.01);
     opacity: 0.9;
 }

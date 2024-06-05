@@ -225,6 +225,7 @@ textarea:focus::placeholder{
     background-color: #444;
     color: #ddd;
     resize: none;
+    font-family: 'Inter', sans-serif;
 }
 
 .would{

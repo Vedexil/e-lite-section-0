@@ -46,7 +46,7 @@ function validate()
 
 
     if (isValid) {
-        var userInputString = "Name: " + a + "\nGrade: " + b + "\nEmail: " + c + "\nDate of Birth: " + d + "\nAbout Yourself: " + e + "\nAchievements: " + f;
+        var userInputString = "Name: " + a + "\nGrade: " + b + "\nEmail: " + c + "\nDate of Birth: " + d + "\nAbout Yourself: " + e + "\nAchievements: " + f + "\nWPress OK to submit.";
         alert(userInputString);
         return true;
     } else {
